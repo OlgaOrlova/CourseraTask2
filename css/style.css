@@ -1,0 +1,97 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: black;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+/** HEADER**/
+
+#header-nav {
+    background-color: grey;
+    border-radius: 0;
+    border: 2px solid black;
+    color: black;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #101010;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: -5px;
+    line-height: .75;
+}
+
+#nav-list {
+    margin-top: 0;
+    background-color: #ff570d;
+    ;
+    margin-bottom: 0;
+}
+
+#nav-list a {
+    color: black;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+#blokChicken {
+    background-color: blue;
+    height: 1000px;
+}
+
+#mainBlockText {
+    height: 1000px;
+    background-color: #ff570d;
+    padding: 15px 15px 15px 15px;
+}
+
+
+/*************Medium devices onle******/
+
+@media ( min-width: 992px) and ( max-width: 1199px) {
+    .row {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+
+/*************Small devices onle******/
+
+@media ( min-width: 768px) and ( max-width: 991px) {
+    .row {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+
+/*************Extra small devices onle******/
+
+@media ( max-width: 767px) {
+    #collapsable-nav {
+        border: 2px solid black;
+    }
+    .row {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #boder1 {
+        border: 2px solid black;
+    }
+}
